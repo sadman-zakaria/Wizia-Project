@@ -22,7 +22,7 @@ export default function Nav() {
         <Navbar
           onMenuOpenChange={setIsMenuOpen}
           className="bg-[#002228] max:w-[1440px]  mx-auto "
-          maxWidth='xl'
+          maxWidth='2xl'
         >
           <NavbarContent>
             <NavbarBrand>
