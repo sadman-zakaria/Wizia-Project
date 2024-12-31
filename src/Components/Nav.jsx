@@ -18,10 +18,10 @@ export default function Nav() {
 
   return (
     <>
-      <div className="w-[100%] bg-[#002228] ">
+      <div className="w-[100%] bg-[#002228] sticky top-0">
         <Navbar
           onMenuOpenChange={setIsMenuOpen}
-          className="bg-[#002228] max:w-[1440px]  mx-auto "
+          className="bg-[#002228] max:w-[1440px]  mx-auto  "
           maxWidth='2xl'
         >
           <NavbarContent>
