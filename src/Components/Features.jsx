@@ -23,14 +23,14 @@ function Features() {
   return (
     <>
        
-        <div className='h-screen w-full pt-10 pb-10'>
-            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 !p-5'>
+        <div className=' w-full pt-10 pb-10 '>
+            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 !p-5 m-12'>
                 {cardData.map((card)=>
                   <div key={card.id}>
                     <img src={card.ImgSrc} alt="" />
                     <div>
-                    <h3 className='text-xl  font-semibold mb-2 text-white'>{card.title}</h3>
-                    <p className='text-gray-600 mb-4'>{card.description}</p>
+                    <h3 className='text-xl  font-semibold mb-3 mt-3 text-white'>{card.title}</h3>
+                    <p className='text-gray-400 mb-4'>{card.description}</p>
                     </div>
                   </div>
                 )}
