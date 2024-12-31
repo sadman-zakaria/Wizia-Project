@@ -1,7 +1,9 @@
 
 import './App.css'
+import Heroa from './Components/hero'
 import Nav from './Components/Nav'
-import Heroa from './Components/Hero'
+import OurPartners from './Components/Partners'
+
 function App() {
  
 
@@ -9,7 +11,8 @@ function App() {
     <>
       <Nav/>
       <Heroa/>
-    
+      <OurPartners/>
+      
     </>
   )
 }
