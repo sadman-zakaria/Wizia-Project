@@ -1,5 +1,6 @@
 
 import './App.css'
+import Allocate from './Components/Allocate'
 import Features from './Components/features'
 import Heroa from './Components/hero'
 import Nav from './Components/Nav'
@@ -18,6 +19,7 @@ function App() {
       <Features/>
       <TrainControls/>
       <Slider/>
+      <Allocate/>
     </>
   )
 }
