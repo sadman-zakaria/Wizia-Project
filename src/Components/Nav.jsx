@@ -36,37 +36,37 @@ export default function Nav() {
 
           <NavbarContent className="hidden sm:flex gap-4 " justify="center">
             <NavbarItem>
-              <Link color="foreground" href="#" className="text-white hover:bg-gray-700 px-4 py-2 rounded-md">
+              <Link color="foreground" href="#" className="text-white hover:bg-gray-700 duration-500 transition-all px-4 py-2 rounded-md">
                 About Us
               </Link>
             </NavbarItem>
             <NavbarItem isActive>
-              <Link href="#" aria-current="page" className="text-white hover:bg-gray-700 px-4 py-2 rounded-md">
+              <Link href="#" aria-current="page" className="text-white hover:bg-gray-700 duration-500 transition-all px-4 py-2 rounded-md">
                 Pricing
               </Link>
             </NavbarItem>
             <NavbarItem>
-              <Link color="foreground" href="#" className="text-white hover:bg-gray-700 px-4 py-2 rounded-md">
+              <Link color="foreground" href="#" className="text-white hover:bg-gray-700 duration-500 transition-all px-4 py-2 rounded-md">
                 Customers
               </Link>
             </NavbarItem>
 
             <NavbarItem>
-              <Link color="foreground" href="#" className="text-white hover:bg-gray-700 px-4 py-2 rounded-md">
+              <Link color="foreground" href="#" className="text-white hover:bg-gray-700 duration-500 transition-all px-4 py-2 rounded-md">
                 Solutions
               </Link>
             </NavbarItem>
           </NavbarContent>
           <NavbarContent justify="end">
             <NavbarItem className="hidden md:flex">
-              <Button  variant="solid" className="rounded-full bg-[#0FF1F6]">
+              <Button  variant="solid" className="rounded-full bg-[#0FF1F6] shadow-md transition-all duration-400 hover:shadow-2xl hover:ring-4 hover:bg-slate-400 hover:ring-Black">
                 <Link href="#" className="text-black font-semibold">
                   Book a Demo
                 </Link>
               </Button>
             </NavbarItem>
             <NavbarItem className="hidden  sm:flex">
-              <Button color="white" variant="bordered" className="rounded-full hover:bg-gray-700">
+              <Button color="white" variant="bordered" className="rounded-full hover:bg-slate-500">
                 <Link href="#" className="text-white font-semibold">
                   Contact Us
                 </Link>
