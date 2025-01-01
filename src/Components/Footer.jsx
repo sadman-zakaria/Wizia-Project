@@ -16,9 +16,9 @@ function Footer() {
            </div>
       </div>
 
-      <div className='bg-[#07292F] h-[80px] mx-auto'>
-        <img src="Logo.png" alt="" />
-        <p>Copyright © 2023 Wizia. All rights reserved.</p>
+      <div className='bg-[#07292F] h-[70px] mx-auto flex items-center justify-between '>
+        <img src="Logo.png" alt=""  className='mx-5'/>
+        <p className='text-danger-500 mx-5'>Copyright © 2023 Wizia. All rights reserved.</p>
       </div>
     </>
   )
