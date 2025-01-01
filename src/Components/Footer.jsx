@@ -15,6 +15,11 @@ function Footer() {
               </button>
            </div>
       </div>
+
+      <div className='bg-[#07292F] h-[80px] mx-auto'>
+        <img src="Logo.png" alt="" />
+        <p>Copyright © 2023 Wizia. All rights reserved.</p>
+      </div>
     </>
   )
 }
