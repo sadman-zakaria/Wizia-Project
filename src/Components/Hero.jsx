@@ -9,10 +9,10 @@ function Heroa() {
 
           <h1 className='text-6xl lg:text-8xl text-white font-bold mt-3'>More <span className='italic font-normal'>Ieads,</span> <br /> less
           <span className='italic font-normal'> peopIe.</span></h1>
-          <p className='text-[#FFFFFF] mt-6 font-semibold'>Train an aiDR on your ICP and messaging matrix. <br />   Activate it on a patch. It will send personalized <br />
+          <p className='text-gray-300 mt-6 '>Train an aiDR on your ICP and messaging matrix. <br />   Activate it on a patch. It will send personalized <br />
            sequences to every target contact.</p>
-            <div className='flex justify-center md:justify-normal mt-6 md:mt-10'>
-              <button className='bg-[#0FF1F6] font-semibold flex items-center px-3 py-2 rounded-full '>Sign Up for the Beta
+           <div className='flex justify-center md:justify-normal mt-6 md:mt-10'>
+              <button className='bg-[#0FF1F6] font-semibold flex items-center px-3 py-2 rounded-full  shadow-md transition-all duration-400 hover:shadow-2xl hover:ring-8 hover:ring-Black '>Sign Up for the Beta
                <img className='px-2' src="arrow-Button.png" alt="" />
               </button>
            </div>
