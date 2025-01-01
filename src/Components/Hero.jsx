@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Heroa() {
+function Hero() {
   return (
     <>
       <div className='bg-[url(zero.png)] w-full h-[458px]  md:h-[522px] lg:h-[592px] bg-cover bg-no-repeat  bg-right-bottom flex '>
@@ -23,4 +23,4 @@ function Heroa() {
   )
 }
 
-export default Heroa;
+export default Hero;

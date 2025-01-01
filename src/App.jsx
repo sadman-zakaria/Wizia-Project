@@ -1,9 +1,10 @@
 
 import './App.css'
 import Allocate from './Components/Allocate'
-import Features from './Components/features'
+import Features from './Components/Features'
 import Footer from './Components/Footer'
-import Heroa from './Components/hero'
+import Hero from './Components/Hero'
+
 import Nav from './Components/Nav'
 import OurPartners from './Components/Partners'
 import Slider from './Components/Slider'
@@ -15,7 +16,7 @@ function App() {
   return (
     <>
       <Nav/>
-      <Heroa/>
+      <Hero/>
       <OurPartners/>
       <Features/>
       <TrainControls/>
