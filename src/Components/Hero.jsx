@@ -3,7 +3,7 @@ import React from 'react'
 function Hero() {
   return (
     <>
-      <div className='bg-[url(zero.png)] w-full h-[458px]  md:h-[522px] lg:h-[592px] bg-cover bg-no-repeat  bg-right-bottom flex '>
+      <div className='bg-[url(./zero.png)] w-full h-[458px]  md:h-[522px] lg:h-[592px] bg-cover bg-no-repeat  bg-right-bottom flex '>
         <div className="text-center  md:text-start lg:text-start mt-[44px] sm:mt-[110px] sm:ml-[50px] md:ml-[120px] max-w-[1440px] px-3">
           <p className='text-xl lg:text-2xl text-[#0FF1F6] '>AI SDRs (aiDRs)</p>
 
